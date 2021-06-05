@@ -1,35 +1,11 @@
-# cit281-p1
+# cit281-p7
 
-# Project 1: Practicing CLI Commands and coding Javascript
+# Project 7: Creating CIT Minor webpage using Github Pages
 
 ### Overview
-In this project I used CLI commands to create an array of folders. I also gained experience writing and executing Node.js Javascript code.
+In this project I used github to create an individual repository for all of the projects and labs I did while in the Cit281 class. I then linked to these repositories using a main page that will house my portfolio of work in th CIT minor.
 
 ### Project Code
 ```markdown
-/*
-    CIT 281 Project 1
-    Name: Devin Guardino
-*/
-
-// Returns a random number between min (inclusive) and max (exclusive)
-function getRandomInteger(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
-}
-
-const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-let result = "";
-
-for (let i = 0; i < getRandomInteger(5, 26); i++) {
-    result += alphabet[getRandomInteger(1,alphabet.length-1)];
-}
-
-console.log(result);
-```
-
-```markdown
-const date = new Date();
-const days= ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-console.log(days[date.getDay()]);
+No code for this project.
 ```
